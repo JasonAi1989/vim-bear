@@ -1,3 +1,3 @@
 
-nnoremap <silent> <Plug>CSFindS :<C-u>if bear#CSFindS()<Bar>execute ":cs find s @z"<Bar>endif<CR>
+nnoremap <silent> <Plug>CSFindS :<C-u>if bear#CSFindS()<Bar>execute ":cs find s <C-R>z"<Bar>endif<CR>
 nmap <unique> <Leader>s <Plug>CSFindS
